@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import ReaderList from '../components/readers/ReaderList';
 
 const Readers = () => {
-  return <h1>Readers</h1>;
+  return (
+    <Fragment>
+      <h1>Readers</h1>
+      <ReaderList />
+    </Fragment>
+  );
 };
 
 export default Readers;
